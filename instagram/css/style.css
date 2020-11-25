@@ -1,0 +1,673 @@
+.container{
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+*,
+ *::before, 
+ *::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+
+}
+.intro__left{
+	position: absolute;
+    margin: 60px 0 0 170px;
+}
+.phone{
+	position: absolute;
+	z-index: 0;
+}
+.screen{
+	position: absolute;
+	z-index: 2;
+	left: 26.55%;
+	margin-top: 155px;
+	width: 245px;
+	height: 440px;
+	animation-name: example;
+    background: url(../image/scr1.jpg);
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+    border:3px solid #000;
+}
+@keyframes example{
+    0%   {background:url(../image/scr1.jpg);}
+    25%  {background:url(../image/scr2.jpg);}
+    50%  {background:url(../image/scr3.jpg);}
+    75%  {background:url(../image/scr4.jpg);}
+    100% {background:url(../image/scr5.jpg);}
+}
+.intro__right{
+	
+}
+
+.right__first{
+	margin-top: 100px;
+	border:1px solid grey;
+	position: absolute;
+	right: 21%;
+	width: 340px;
+	height: 400px;
+    border-radius: 2px;
+}
+.logo{
+    position: absolute;
+	width: 170px;
+    height: 70px;
+    right: 25%;
+    margin-top: 20px;
+}
+.form__join{
+	position: absolute;
+	right: 12%;
+	margin-top: 120px;
+	
+}
+.user{
+	border:1px solid grey;
+	padding-left: 10px;
+	font-size: 11px;
+	width: 260px;
+	height: 40px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+.user:focus{
+    background-color: #e8f0fe;
+}
+.password{
+	border:1px solid grey;
+	padding-left: 10px;
+	font-size: 11px;
+	width: 260px;
+	height: 40px;
+	border-radius: 4px;
+}
+.password:focus{
+    background-color: #e8f0fe;
+}
+.button{
+	background-color: #0095f6;
+	color: #fff;
+	position: absolute;
+	right: 12%;
+	margin-top: 220px;
+	width: 260px;
+	height: 30px;
+	border:none;
+	border-radius: 3px;
+	opacity: 0.35;
+	font-size: 14px;
+}
+.grey__l{
+	position: absolute;
+	bottom: 30%;
+    width: 106px;
+    height: 1px;
+    background-color: grey;
+    margin-left: 36px;
+}
+.grey__r{
+    position: absolute;
+	bottom: 30%;
+    width: 106px;
+    height: 1px;
+    background-color: grey;
+    margin-left: 190px;
+}
+.or{
+	position: absolute;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: grey;
+	font-size: 14px;
+	bottom: 23%;
+	left: 45%;
+}
+.facebook{
+	position: absolute;
+	bottom: 10%;
+	left: 27%;
+	color: #385185;
+}
+.forgot{
+	color: #174978;
+	position: absolute;
+    left: 36%;
+    bottom: 8%;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 14px;
+}
+.right__second{
+    border:1px solid grey;
+    position: absolute;
+    right: 30%;
+    z-index: 10;
+    margin-top: 510px;
+    width: 340px;
+    margin-right: -108px;
+    height: 70px;
+}
+.acc{
+	position: absolute;
+    margin-left: 70px;
+    color:#6c6c6c;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.log{
+	position: absolute;
+    margin-top: 24px;
+    right: 21%;
+    color: #43b1f8;
+    text-decoration: none;
+
+}
+.right__third{
+	position: absolute;
+	right: 27%;
+	margin-top: 575px;	
+    margin-right: -40px;
+}
+.get{
+    margin-left: 80px;
+}
+.apple{
+    width: 130px;
+}
+.android{
+	width: 130px;
+}
+@media (max-width:1170px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 38%;
+}
+.right__second{
+	position: absolute;
+	left: 38%;
+}
+.right__third{
+	position: absolute;
+	left: 42%;
+}
+@media (max-width:1075px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 33%;
+}
+.right__second{
+	position: absolute;
+	left: 33%;
+}
+.right__third{
+	position: absolute;
+	left: 37%;
+}
+@media (max-width:898px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 31%;
+}
+.right__second{
+	position: absolute;
+	left: 31%;
+}
+.right__third{
+	position: absolute;
+	left: 35%;
+}
+@media (max-width:766px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 30%;
+}
+.right__second{
+	position: absolute;
+	left: 30%;
+}
+.right__third{
+	position: absolute;
+	left: 37%;
+}
+@media (max-width:672px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 28%;
+}
+.right__second{
+	position: absolute;
+	left: 28%;
+}
+.right__third{
+	position: absolute;
+	left: 34%;
+}
+@media (max-width:600px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 25%;
+}
+.right__second{
+	position: absolute;
+	left: 25%;
+}
+.right__third{
+	position: absolute;
+	left: 31%;
+}
+@media (max-width:555px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 23%;
+}
+.right__second{
+	position: absolute;
+	left: 23%;
+}
+.right__third{
+	position: absolute;
+	left: 29%;
+}
+@media (max-width:530px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 20%;
+}
+.right__second{
+	position: absolute;
+	left: 20%;
+}
+.right__third{
+	position: absolute;
+	left: 27%;
+}
+@media (max-width:495px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 18%;
+}
+.right__second{
+	position: absolute;
+	left: 18%;
+}
+.right__third{
+	position: absolute;
+	left: 24%;
+}
+@media (max-width:465px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 13%;
+}
+.right__second{
+	position: absolute;
+	left: 13%;
+}
+.right__third{
+	position: absolute;
+	left: 17%;
+}
+@media (max-width:435px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 8%;
+}
+.right__second{
+	position: absolute;
+	left: 8%;
+}
+.right__third{
+	position: absolute;
+	left: 15%;
+}
+@media (max-width:406px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 7%;
+}
+.right__second{
+	position: absolute;
+	left: 7%;
+}
+.right__third{
+	position: absolute;
+	left: 12%;
+}
+@media (max-width:384px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 5.5%;
+}
+.right__second{
+	position: absolute;
+	left: 5.5%;
+}
+.right__third{
+	position: absolute;
+	left: 13%;
+}
+@media (max-width:376px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 4%;
+}
+.right__second{
+	position: absolute;
+	left: 4%;
+}
+.right__third{
+	position: absolute;
+	left: 15%;
+}
+.right__third{
+	position: absolute;
+	left: 11%;
+}
+.get{
+    position: absolute;
+    left: 8%;
+}
+.apple{
+    position: absolute;
+    margin-top: 50px;
+    left: 28%;
+}
+.android{
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+
+}
+@media (max-width:365px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 3%;
+}
+.right__second{
+	position: absolute;
+	left: 3%;
+}
+.right__third{
+	position: absolute;
+	left: 11%;
+}
+.get{
+    position: absolute;
+    left: 8%;
+}
+.apple{
+    position: absolute;
+    margin-top: 50px;
+    left: 28%;
+}
+.android{
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+
+}
+@media (max-width:351px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 1.5%;
+}
+.right__second{
+	position: absolute;
+	left: 1.5%;
+}
+.right__third{
+	position: absolute;
+	left: 11%;
+}
+.get{
+    position: absolute;
+    left: 8%;
+}
+.apple{
+    position: absolute;
+    margin-top: 50px;
+    left: 28%;
+}
+.android{
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+
+}
+@media (max-width:321px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 0.33%;
+    border:none;
+}
+.right__second{
+	position: absolute;
+	left: 0.33%;
+	border:none;
+}
+.right__third{
+	position: absolute;
+	left: 11%;
+	border:none;
+}
+.get{
+    position: absolute;
+    left: 8%;
+}
+.apple{
+    position: absolute;
+    margin-top: 50px;
+    left: 28%;
+}
+.android{
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+
+}
+@media (max-width:280px ){
+.intro__left{
+	display: none;
+} 
+.phone{
+	display: none;
+} 
+.screen{
+	display: none;
+}  
+.right__first{
+    position: absolute;
+    left: 0.5%;
+}
+.right__second{
+	position: absolute;
+	left: 0.5%;
+}
+.right__third{
+	position: absolute;
+	left: 11%;
+}
+.get{
+    position: absolute;
+    left: 8%;
+}
+.apple{
+    position: absolute;
+    margin-top: 50px;
+    left: 28%;
+}
+.android{
+    position: absolute;
+    margin-top: 100px;
+    left: 28%;
+
+}
+
+}

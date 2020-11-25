@@ -1,0 +1,402 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif;
+    }
+.header{
+	background-color: #4a76a8;
+	height: 38px;
+}
+.container {
+    width: 100%;
+
+}
+.header__h{
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+}
+.form{
+	position: relative;
+}
+.img__search{
+	position: absolute;
+	width:15px;
+	height:15px;
+	margin-left:-225px;
+	margin-top: 12px;
+}
+#site-search{
+	padding-left: 30px;
+	border-radius: 15px;
+	height: 25px;
+	width: 200px;
+	margin: 6px 0;
+	background-color: #224b7a;
+    border: none;
+    cursor: pointer; /*Мышка озгереди стрелкасы*/
+}
+.img__first{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 230px;
+	height: 30px;
+
+}
+.intro__h{
+	display: flex;
+	justify-content: space-between;
+}
+
+.h2__c{
+   margin-top: 40px;
+   text-align: center;
+   font-size: 22px;
+   line-height: 26px;
+   font-weight: 700;
+   margin-bottom: -15px;
+
+}
+.h5__c{
+   text-align: center;
+   font-size: 14px;
+   color: #626d7a;
+   line-height: 20px;
+   width: 500px;
+   margin-left: 295px;
+   margin-bottom: 10px;
+   font-weight: 400;
+}
+.img__second{
+   position: relative;
+   margin-top: -160px;
+}
+.login{
+	padding-left: 10px;
+   width: 240px;
+   height: 25px;
+   background-color: #e8f0fe;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   border: 1px solid grey;
+}
+
+.password{
+	padding-left: 10px;
+   width: 240px;
+   height: 25px;
+   background-color: #e8f0fe;
+   border-radius: 4px;
+   margin-bottom: 15px;
+   border: 1px solid grey;
+}
+.btn{
+	border-radius: 3px;
+    background-color: #5181b8;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.word{
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+}
+.intro__s{
+	border: 20px solid white;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-top: 30px;
+	padding: 6px 4px 8px 6px;
+
+
+}
+.intro__k{
+    margin-top: 25px;
+    border: 20px solid white;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.h3__k{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.h4__k{
+   font-size: 12.5px;
+   color: #656565;
+   text-align: center;
+   position: relative;
+   margin-top: -15px;
+}
+.name{
+   padding-left: 10px;
+   width: 240px;
+   border-radius: 4px;
+   height: 25px;
+   border: 1px solid grey;
+   margin-bottom: 10px;
+
+}
+.day{
+   padding-left: 8px;
+   color: rgb(142 144 147);
+}
+.month{
+   padding-left: 8px;
+   color: rgb(142 144 147);
+}
+.year{
+   padding-left: 8px;
+   color: rgb(142 144 147);
+}
+
+.surname{
+   padding-left: 10px;
+   width: 240px;
+   border-radius: 4px;
+   height: 25px;
+   border: 1px solid grey;
+}
+.intro__second{
+	margin-right: 500px;
+	margin-left: -170px;
+
+}
+.day{
+	overflow-y: auto;
+}
+.day{
+	border-radius: 4px;
+	border: 1px solid grey;
+	height: 30px;
+	width: 60px;
+
+}
+.month{
+	border-radius: 4px;
+	border: 1px solid grey;
+	height: 30px;
+	width: 80px;
+}
+.year{
+	border-radius: 4px;
+	border: 1spx solid grey;
+	height: 30px;
+	width: 60px;
+
+}
+.birth{
+	color: #939393;
+	font-size: 13px;
+	position: relative;
+	margin-bottom: 8px;
+}
+.gen{
+    color: #939393;
+    font-size: 13px;
+
+
+}
+.male{
+    font-size: 13px;
+
+}
+.female{
+    font-size: 13px;
+}
+.radio{
+	margin-top: -25px;
+	margin-bottom: 17px;
+}
+.btn2{
+	background-color: #4bb34b;
+	border-radius: 4px;
+	width: 240px;
+	height: 30px;
+	color: #fff;
+	border:none;
+	margin-bottom: 17px;
+}
+#imgFacebook{
+   width: 20px;
+   height: 20px;
+   margin-right: 210px;
+   margin-bottom: -10px;
+
+}
+.prodoljit{
+   margin-top: -11px;
+   color: #fff;
+}
+.facebook{
+ width: 240px;
+ border-radius: 4px;
+ height: 30px;
+ background-color: #1b6dd1;
+ border :none;
+}
+.android{
+    color: #2a5885;
+    border :none;
+    cursor: pointer;
+    position: relative;
+    margin-left: -20px;
+
+}
+.iphone{
+    color: #2a5885;
+    border :none;
+    cursor: pointer;
+    margin-left: 60px;
+}
+.btn3{
+	position: absolute;
+	margin-left: 450px;
+	top: 620px;
+
+
+}
+.intro__second{
+	z-index: 2;
+}
+.text{
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    color: #919c99;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+.aaa{
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    color: #2a5885;
+    text-decoration: none;
+    margin-left: 90px;
+}
+.intro__l{
+	margin-top: 30px;
+	border: 20px solid #fff;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.dummy_btn{
+	position: relative;
+	display: flex;
+   justify-content: space-between;
+   margin-top: -20px;
+}
+.img__android{
+	position: absolute;
+	margin-left: -35px;
+}
+.img__apple{
+	position: absolute;
+	margin-left: 125px;
+}
+.product{
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+	color: #2a5885;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-left: -25px;
+	text-decoration: none;
+
+}
+
+.bbb{
+    font-size: 13px;
+    position: relative;
+    margin-left: 280px;
+    margin-top: -40px;
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text1{
+    font-size: 13px;
+    margin-left:5px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 300px;
+    color: #6f7985;
+    cursor: pointer;
+
+
+
+}
+.footer__1{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.kkk{
+	display: flex;
+	justify-content: space-between;
+	color: #6f7985;
+	font-size: 13px;
+	margin-right: 750px;
+	margin-top: -40px;
+
+}
+.about{
+    text-decoration: none;
+    color: #2a5885;
+    cursor: pointer;
+
+}
+.terms{
+    padding-left: 8px;
+    text-decoration: none;
+    color: #2a5885;
+    cursor: pointer;
+}
+.develop{
+    padding-left: 8px;
+    text-decoration: none;
+    color: #2a5885;
+    cursor: pointer;
+}
+.ttt{
+	display: flex;
+	direction: column;
+	margin-top: -40px;
+	margin-left: 940px;
+}
+.english{
+	padding-right: 8px;
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.russian{
+    padding-right: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ukraine{
+    padding-right: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.all{
+	font-size: 13px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.kkk{
+	z-index: 2;
+}
